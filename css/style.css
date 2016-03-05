@@ -137,6 +137,10 @@ footer a:hover{
     padding: 10px;
 }
 
+.box:focus{
+    background: #ffbfbf;
+}
+
 label{
     font: 1em Rokkitt, Tahoma;
     margin: 10px;
