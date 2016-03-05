@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/tablet.css" media="(max-width:600px)">
 	<link rel="stylesheet" href="css/mobile.css" media="(max-width:480px)">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
 	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.js"></script>
@@ -33,28 +34,32 @@
        <img src="imgs/3.jpg" alt="Receitas Especiais" title="Receitas Especiais"> 
     </div>
     <main>
-        <h1>Receitas</h1>
+        <h1>Receita de Costelinha de Porco ao Molho Barbecue</h1>
         <div class="receita">
             <img src="imgs/foto1.jpg" alt="Costelinha" title="Costelinha">
-            <p><strong>Costelinha Suína ao Molho Barbecue</strong></p>
-            <p><a href="costelinha.html" title="Costelinha" class="btn"><i class="fa fa-search"></i>Ver Receita</a></p>
-        </div>
-        <div class="receita">
-            <img src="imgs/foto2.jpg" alt="Espetinho" title="Espetinho">
-            <p><strong>Espetinho de Gato</strong></p>
-            <p><a href="espetinho.html" title="Espetinho" class="btn"><i class="fa fa-search"></i>Ver Receita</a></p>
-        </div>
+            <p>
+               <a href="javascript:window.print()" title="Imprimir" class="btn"><i class="fa fa-print"></i>Imprimir</a> 
+            </p>
+        </div>   
+        <div class="descricao">
+            <h2>Receita:</h2>
+            <p><strong>Ingredientes:</strong></p>  
+            <ul>
+                <li>1 kg de Costelinha Suína</li>
+                <li>Sal</li>
+                <li>Pimenta do Reino</li>
+                <li>Alho</li>
+                <li>Suco de 1 limão</li>
+                <li>Molho Barbecue</li>
+            </ul>
+            <p><strong>Modo de Preparo:</strong></p>   
+            <p>Tempere a costela com sal, alho e pimenta a gosto. 
+                Jogue o suco de limão e deixe descansar por 2 horas. Aqueça a churrasqueira, quando estiver quente coloque a costelinha em uma grelha ou no espeto. Vire assando cada lado até ficar dourado. 
+                Aplique o molho barbecue.
+            </p>              
+        </div>  
         <div class="clear"></div>
-        <div class="receita">
-            <img src="imgs/foto3.jpg" alt="Molho" title="Molho">
-            <p><strong>Molho Especial para Churrasco</strong></p>
-            <p><a href="molho.html" title="Molho" class="btn"><i class="fa fa-search"></i>Ver Receita</a></p>
-        </div>
-        <div class="receita">
-            <img src="imgs/foto4.jpg" alt="Cebola" title="Cebola">
-            <p><strong>Cebola do Autibéqui</strong></p>
-            <p><a href="cebola.html" title="Cebola" class="btn"><i class="fa fa-search"></i>Ver Receita</a></p>
-        </div>        
+        <p class="escondido">Receita tirada do site www.churrasquito.com.br</p>       
     </main>
     <footer>
         <p> Churrasquito - Todos os direitos autorais reservados<br>

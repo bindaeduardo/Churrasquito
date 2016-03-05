@@ -72,13 +72,20 @@ h1{
     margin: 10px;
 }
 
+h2{
+    font: 2.5em Rokkitt, Tahoma;
+    font-weight: bold;
+    color: #B20000
+}
+
+
 p{
     font: 2em Rokkitt, Tahoma;
     margin: 10px;
 }
 
 .btn{
-    padding: 1opx;
+    padding: 10px;
     background: #F00;
     color: #FFF;
     text-decoration: none;
@@ -137,4 +144,18 @@ label{
 
 .clear{
     clear: both;
+}
+
+.descricao{
+    width: 50%;
+    float: right;
+}
+
+.descricao ul{
+    font: 2em Rokkitt, Tahoma;
+    margin-left: 40px;
+}
+
+.escondido{
+    display: none;
 }
