@@ -134,3 +134,7 @@ label{
     font: 1em Rokkitt, Tahoma;
     margin: 10px;
 }
+
+.clear{
+    clear: both;
+}
